@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		981755BE2B7DA7D700062A90 /* SkySpyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981755BD2B7DA7D700062A90 /* SkySpyApp.swift */; };
-		981755C02B7DA7D700062A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981755BF2B7DA7D700062A90 /* ContentView.swift */; };
+		981755C02B7DA7D700062A90 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981755BF2B7DA7D700062A90 /* HomeView.swift */; };
 		981755C22B7DA7D900062A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981755C12B7DA7D900062A90 /* Assets.xcassets */; };
 		981755C62B7DA7D900062A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981755C52B7DA7D900062A90 /* Preview Assets.xcassets */; };
 		981755D02B7DA7D900062A90 /* SkySpyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981755CF2B7DA7D900062A90 /* SkySpyTests.swift */; };
 		981755DA2B7DA7D900062A90 /* SkySpyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981755D92B7DA7D900062A90 /* SkySpyUITests.swift */; };
 		981755DC2B7DA7D900062A90 /* SkySpyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981755DB2B7DA7D900062A90 /* SkySpyUITestsLaunchTests.swift */; };
+		988FCCD72B7EE381009C7519 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FCCD62B7EE381009C7519 /* ColorExtension.swift */; };
+		988FCCD92B7EE3BB009C7519 /* HomeViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FCCD82B7EE3BB009C7519 /* HomeViewConstants.swift */; };
+		988FCCDB2B7EE73F009C7519 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FCCDA2B7EE73F009C7519 /* LocationService.swift */; };
+		988FCCDE2B7EEF8F009C7519 /* DateTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FCCDD2B7EEF8F009C7519 /* DateTimeService.swift */; };
+		988FCCE02B7EF0D1009C7519 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FCCDF2B7EF0D1009C7519 /* CurrentWeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		981755BA2B7DA7D700062A90 /* SkySpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkySpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		981755BD2B7DA7D700062A90 /* SkySpyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkySpyApp.swift; sourceTree = "<group>"; };
-		981755BF2B7DA7D700062A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		981755BF2B7DA7D700062A90 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		981755C12B7DA7D900062A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		981755C32B7DA7D900062A90 /* SkySpy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkySpy.entitlements; sourceTree = "<group>"; };
 		981755C52B7DA7D900062A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		981755D52B7DA7D900062A90 /* SkySpyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkySpyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		981755D92B7DA7D900062A90 /* SkySpyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkySpyUITests.swift; sourceTree = "<group>"; };
 		981755DB2B7DA7D900062A90 /* SkySpyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkySpyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		988FCCD62B7EE381009C7519 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		988FCCD82B7EE3BB009C7519 /* HomeViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewConstants.swift; sourceTree = "<group>"; };
+		988FCCDA2B7EE73F009C7519 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		988FCCDD2B7EEF8F009C7519 /* DateTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeService.swift; sourceTree = "<group>"; };
+		988FCCDF2B7EF0D1009C7519 /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,14 @@
 		981755BC2B7DA7D700062A90 /* SkySpy */ = {
 			isa = PBXGroup;
 			children = (
+				988FCCDC2B7EEF7E009C7519 /* Utilities */,
+				988FCCD52B7EE374009C7519 /* Extension */,
+				988FCCD42B7EE0CC009C7519 /* Constants */,
+				988FCCD32B7EE0C1009C7519 /* Services */,
+				988FCCD22B7EE0BA009C7519 /* ViewModel */,
+				988FCCD12B7EE0B2009C7519 /* View */,
+				988FCCD02B7EE0AE009C7519 /* Model */,
 				981755BD2B7DA7D700062A90 /* SkySpyApp.swift */,
-				981755BF2B7DA7D700062A90 /* ContentView.swift */,
 				981755C12B7DA7D900062A90 /* Assets.xcassets */,
 				981755C32B7DA7D900062A90 /* SkySpy.entitlements */,
 				981755C42B7DA7D900062A90 /* Preview Content */,
@@ -127,6 +143,61 @@
 				981755DB2B7DA7D900062A90 /* SkySpyUITestsLaunchTests.swift */,
 			);
 			path = SkySpyUITests;
+			sourceTree = "<group>";
+		};
+		988FCCD02B7EE0AE009C7519 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		988FCCD12B7EE0B2009C7519 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				981755BF2B7DA7D700062A90 /* HomeView.swift */,
+				988FCCDF2B7EF0D1009C7519 /* CurrentWeatherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		988FCCD22B7EE0BA009C7519 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		988FCCD32B7EE0C1009C7519 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				988FCCDD2B7EEF8F009C7519 /* DateTimeService.swift */,
+				988FCCDA2B7EE73F009C7519 /* LocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		988FCCD42B7EE0CC009C7519 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				988FCCD82B7EE3BB009C7519 /* HomeViewConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		988FCCD52B7EE374009C7519 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				988FCCD62B7EE381009C7519 /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		988FCCDC2B7EEF7E009C7519 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981755C02B7DA7D700062A90 /* ContentView.swift in Sources */,
+				988FCCD72B7EE381009C7519 /* ColorExtension.swift in Sources */,
+				988FCCDE2B7EEF8F009C7519 /* DateTimeService.swift in Sources */,
+				981755C02B7DA7D700062A90 /* HomeView.swift in Sources */,
+				988FCCDB2B7EE73F009C7519 /* LocationService.swift in Sources */,
+				988FCCE02B7EF0D1009C7519 /* CurrentWeatherView.swift in Sources */,
 				981755BE2B7DA7D700062A90 /* SkySpyApp.swift in Sources */,
+				988FCCD92B7EE3BB009C7519 /* HomeViewConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +501,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sky Spy";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide relevant information based on your current location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide relevant information based on your current location.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -464,6 +542,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sky Spy";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide relevant information based on your current location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide relevant information based on your current location.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
