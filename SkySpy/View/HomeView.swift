@@ -18,7 +18,9 @@ struct HomeView: View {
             GeometryReader { gr in
                 ScrollView {
                     CurrentWeatherView()
+                        .padding(.horizontal, 20)
                 }
+                .padding(.vertical, 20)
                 .frame(width: gr.size.width, height: gr.size.height)
             }
         }
